@@ -8,8 +8,7 @@ package
 	{
 		public function Minepunk()
 		{
-			// OMG!
-			trace(FP._gameTime);
+			// Test
 		}
 	}
 }
