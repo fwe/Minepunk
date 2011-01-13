@@ -1,5 +1,6 @@
 package minepunk
 {
+	import minepunk.worlds.GameWorld;
 	import minepunk.worlds.MainMenu;
 	
 	import net.flashpunk.Engine;
@@ -23,7 +24,7 @@ package minepunk
 		
 		public function startGame () : void
 		{
-			trace("Start Game!");
+			FP.world = new GameWorld;
 		}
 	}
 }
