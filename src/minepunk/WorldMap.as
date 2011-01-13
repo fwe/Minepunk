@@ -10,6 +10,7 @@ package minepunk
 	{
 		private var myMask:Grid;
 		private var myTiles:Tilemap
+		private var tileData:Vector.<Vector.<Vector.<int>>>;
 		public function WorldMap()
 		{
 			super(0,0);
@@ -19,6 +20,10 @@ package minepunk
 		
 		override public function added():void		
 		{	
+			init();
+		}
+		private function init () : void
+		{
 			type = "world";
 			graphic = myTiles = new Tilemap(G.PNG_TEXTURES, G.width + (G.tilesize*2), G.height + (G.tilesize*2), G.tilesize, G.tilesize);
 			
