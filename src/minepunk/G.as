@@ -11,6 +11,8 @@ package minepunk
 		public static const framerate:uint = 60;
 		public static const tilesize:uint = 64;
 		
+		public static var map_length:uint = 60;
+		public static var map_height:uint = 30;
 		public static var engine:MineEngine;
 	}
 }

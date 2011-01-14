@@ -1,5 +1,7 @@
 package minepunk
 {
+	import flash.system.Capabilities;
+	
 	import minepunk.worlds.GameWorld;
 	import minepunk.worlds.MainMenu;
 	

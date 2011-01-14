@@ -8,6 +8,7 @@ package
 	import net.flashpunk.FP;
 	
 	[SWF(width=800,height=480)]
+	//,wmode="gpu"
 	
 	public class Minepunk extends Sprite
 	{
